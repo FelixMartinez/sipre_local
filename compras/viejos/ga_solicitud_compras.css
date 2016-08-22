@@ -1,0 +1,230 @@
+.onlyprint{
+	display:none;
+}
+
+
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+@media print{
+	.noprint{
+		display:none;
+	}
+	.onlyprint{
+		display:inline;
+	}
+	.noprintabsolute{
+		display:none;
+	}
+	body{
+		background:#FFFFFF;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		background:none;
+		font-size:10px;
+	}
+}
+.maxtable  {
+	border-collapse:collapse;
+	width:100%;
+}
+
+#tsolicitud td{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.title{
+	font-size: 12px;
+	font-weight:bold;
+}
+
+#tsolicitud #tdlogo{
+	width:5%;
+}
+
+#tsolicitud #tdtitulo{
+	vertical-align:center;
+	text-align:left;
+}
+
+#tsolicitud #tddato{
+	border-left: 1px solid #000000;
+	padding: 2px;
+	text-align:right;
+}
+
+#tsolicitud	#tdcampo{
+	border-left: 1px solid #000000;
+}
+
+.buttonimage{
+	padding:2px;
+	vertical-align:middle;
+}
+
+#encabezado{
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	font-size: 11pt;
+	text-align:center;
+	padding:2px;
+	margin:auto;
+}
+
+/*DEFINICION DE LOS CAMPOS DE DETALLE*/
+
+.formulario{
+	width:980px;
+	margin:auto;
+}
+@media print{
+	.formulario{
+		width:auto;
+	}
+	button{
+		display:none;
+	}
+	
+}
+
+#detalle, #tabladetalle{
+	width: 100%; /* 980px;*/
+	border-bottom:1px solid #000000;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+#tabladetalle{
+	border-collapse:collapse;
+}
+
+#tabladetalle thead td{
+	text-align:center;
+	border-bottom:1px solid #000000;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	
+}
+
+#tabladetalle tbody td, #tabladetalle tfoot td{
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;	
+}
+
+.cantidad{
+	width:7%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+}
+.unidad{
+	width:7%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+}
+.codigo{
+	width:25%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+
+}
+.descripcion{
+	width:36%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+
+}
+.precio{
+	width:15%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+
+}
+.fecha_requerida{
+	width:10%;
+	border-bottom: 1px solid #000000;
+	text-align:center;
+
+}
+
+.eq{
+	background:blue;
+}
+
+
+.ajaxlist{
+	display:block;
+	visibility:hidden;
+	position:absolute;
+	border: 1px solid blue;
+	background:#FFFFFF;
+	padding:2px;
+	/*filter: alpha(opacity=90);*/
+	width:500px;
+	/*max-height:300px;
+	overflow:auto;*/
+	/*filter:Chroma(Color = #000000) Shadow(Color=#00FF00, Direction=225);*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.overflowlist{
+	overflow:auto;
+	max-height:300px;
+	width:500px;
+}
+.ajaxlitem{
+	padding: 2px;
+	/*width: 400px;*/
+}
+
+.titular{
+	text-align:center;
+	font-weight:bold;
+}
+
+.tablap,
+.tablap caption{
+	border:1px solid #000000;
+}
+.tablap caption{
+	border-bottom:0px;
+	font-size:11pt;
+	white-space: nowrap;
+}
+
+.tdcenter{
+	text-align:center;
+}
+
+/**/
+
+th{
+	/*background:#CCCCCC;*/
+	background:#96B8E6;
+}
+A.vin:link {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+A.vin:visited {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+A.vin:active {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+A.vin:hover {
+	COLOR: #0066ff; TEXT-DECORATION: underline
+}
+A.ord:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.ord:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.ord:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.ord:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}

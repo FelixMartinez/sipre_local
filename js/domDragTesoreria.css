@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.root {
+	background-color:#FFFFFF;
+	border:6px solid #999999;
+	border-radius:6px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	max-width:1050px;
+	position:absolute;
+}
+
+.handle {
+	padding:2px;
+	background-color:#9B0000;
+	color:#FFFFFF;
+	font-weight:bold;
+	cursor:move;
+}
+
+.trResaltar4 {
+	background-color:#FFFFFF;
+	height:24px;
+}
+
+.trResaltar5 {
+	background-color:#EAF4FF;
+	height:24px;
+}
+
+.trSobre {
+	background-color:#9B0000;
+	color:#FFFFFF;
+	height:24px;
+}
+
+.trSobre input {
+	background-color:#00349A;
+	color:#FFFFFF;
+}
+
+.legend {
+	color:#9B0000;
+	font-weight:bold;
+}
+
+.trResaltarTesoreria1:hover, .trResaltarTesoreria2:hover{/*Importante, con esto no necesitas onmouseout onmouseover para resaltar*/
+	background-color:#9B0000;
+	color:#FFFFFF;
+}

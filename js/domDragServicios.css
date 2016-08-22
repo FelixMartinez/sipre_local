@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.root {
+	background-color:#FFFFFF;
+	border:6px solid #999999;
+	border-radius:6px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	max-width:1050px;
+	position:absolute;
+}
+
+.handle {
+	padding:2px;
+	background-color:#056A00;
+	color:#FFFFFF;
+	font-weight:bold;
+	cursor:move;
+}
+
+.trResaltar4 {
+	background-color:#FFFFFF;
+}
+
+.trResaltar5 {
+	background-color:#EEFFDD;
+}
+
+.trSobre {
+	background-color:#056A00;
+	color:#FFFFFF;
+}
+
+.trResaltar4:hover, .trResaltar5:hover, .trResaltar7:hover{/*Importante, con esto no necesitas onmouseout onmouseover para resaltar*/
+	background-color:#056A00;
+	color:#FFFFFF;
+}
+
+
+.trSobre input {/*no se usa*/
+	background-color:#056A00;
+	color:#FFFFFF;
+}
+
+.trSobre select {/*no se usa*/
+	background-color:#056A00;
+	color:#FFFFFF;
+}
+
+.trSobre span {/*no se usa*/
+	background-color:#056A00;
+	color:#FFFFFF;
+}
+
+.legend {
+	color:#056A00;
+	font-weight:bold;
+}

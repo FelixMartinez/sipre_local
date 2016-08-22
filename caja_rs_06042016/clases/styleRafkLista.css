@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tabla {
+	border-collapse:collapse;
+}
+
+.colorFila1 {
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.colorFila1 td {
+	padding:2px;
+}
+
+.colorFila2 {
+	background-color:#F0F0F0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.colorFila2 td {
+	padding:2px;
+}
+
+.colorFilaSobre {
+	background-color:#D8F1FE;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.colorFilaSobre td {
+	padding:2px;
+}
+
+.tituloCol {
+	background-color:#0A1F62;
+	color:#FFFFFF;
+}
+.tituloCol td {
+	padding:2px;
+}
+.tituloCol td a {
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.pieCol {
+	background-color:#0A1F62;
+	color:#FFFFFF;
+}
+.pieCol td {
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:1px;
+}
+.pieCol select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.pieCol td a {
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}

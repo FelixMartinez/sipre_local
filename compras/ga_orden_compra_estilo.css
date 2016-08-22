@@ -1,0 +1,317 @@
+
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+}
+
+@media print{
+	#logo_grupo{
+		width:160px;
+	}
+}
+
+#marco_superior{
+	width:1000px;
+}
+
+.printtable{
+	border-collapse:collapse;
+	width:100%;
+}
+
+.printtable caption{
+	background: #ccc;
+	font-weight:bold;
+	border: 1px solid black;
+	padding:1px;
+}
+.espaciador{
+	height:4px;
+}
+
+#nobordertable{
+	width:100%;
+}
+#nobordertable td{
+	padding: 1px;
+}
+#datostotales1{
+	white-space:nowrap;
+}
+#datostotales2{
+	width:*%;
+}
+#datostotales3{
+	white-space:nowrap;
+	width:10%;
+}
+#datostotales4{
+	width:*;
+}
+/*ENCABEZADO*/
+
+#tabla_encabezado{
+	width:100%;
+}
+
+#titulo_orden_compra{
+	font-size:12pt;
+	font-weight:bold;
+	white-space:nowrap;
+	text-align:center;
+	white-space:nowrap;
+}
+
+.grupo_encabezado1{
+	width:20%;
+	vertical-align:top;
+	
+}
+.grupo_encabezado2{
+	width:40%;
+	
+}
+.grupo_encabezado3{
+	width:20%;
+	
+}
+.grupo_encabezado4{
+	width:20%;
+	
+}
+.texto_encabezado{	
+	white-space:nowrap;
+}
+
+.td_dato{
+	border-bottom:1px solid black;
+}
+
+/*DATOS DEL PROVEEDOR*/
+.label_proveedor,
+.label_proveedor_principal{
+	white-space:nowrap;
+	padding-left:2px;
+	text-align:right;
+	padding-right:2px;
+}
+.label_proveedor_principal{
+	text-align:left;
+}
+
+.td_dato_in{
+	padding-left:2px;
+	padding-right:2px;
+}
+#tabla_proveedor{
+border:1px solid black;
+}
+#tabla_proveedor td{
+	padding-top:10px;
+}
+ 
+/*.grupo_proveedor1,
+.grupo_proveedor6{
+	width:20%;	
+}
+.grupo_proveedor3{
+	width:5%;	
+}
+.grupo_proveedor5{
+	width:5%;	
+}*/
+
+#td_proveedor1,
+#td_proveedor6{
+	width:20%;	
+}
+#td_proveedor3{
+	width:5%;	
+}
+#td_proveedor5{
+	width:5%;	
+}
+
+/*DATOS DEL compra*/
+.label_compra,
+.label_compra_principal{
+	white-space:nowrap;
+	padding-left:2px;
+	text-align:right;
+	padding-right:2px;
+}
+.label_compra_principal{
+	text-align:left;
+}
+
+.td_dato_in{
+	padding-left:2px;
+	padding-right:2px;
+}
+#tabla_compra{
+	border:1px solid black;
+	border-bottom:0px;
+}
+#tabla_compra2{
+	border:1px solid black;
+	border-top:0px;
+	border-bottom:0px;
+}
+#tabla_compra td,
+#tabla_compra2 td{
+	padding-top:10px;
+}
+  
+#td_compra1,
+#td_compra6{
+	width:20%;	
+}
+#td_compra3{
+	width:5%;	
+}
+#td_compra5{
+	width:5%;	
+}
+
+#td_compra1_2{
+	width:20%;	
+}
+#td_compra2_2{
+	width:20%;	
+}
+#td_compra4_2{
+	width:10%;	
+}
+#td_compra6_2{
+	width:20%;	
+}
+
+/*DETALLES*/
+
+#espaciador_detalles{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+
+}
+
+#tabla_detalles{
+	border:1px solid black;
+	border-top:0px;
+}
+
+
+#tabla_detalles thead td{
+	font-weight:bold;
+	text-align:center;
+}
+
+#tabla_detalles  td{
+	border: 1px solid black;
+}
+
+#tabla_detalles .td_grupo_numero{
+	width:10px;
+	text-align:center;
+}
+#tabla_detalles .td_grupo_cantidad{
+	text-align:center;
+	width:5%;
+}
+#tabla_detalles .td_grupo_unidad{
+	text-align:center;
+	width:10%;
+}
+#tabla_detalles .td_grupo_codigo{
+	text-align:center;
+	width:10%;
+}
+#tabla_detalles .td_grupo_descripcion{
+	text-align:center;
+	width:*;
+}
+#tabla_detalles .td_grupo_precio{
+	text-align:center;
+	width:12%;
+}
+#tabla_detalles .td_grupo_subtotal{
+	background:yellow;
+	text-align:right;
+	width:12%;
+}
+
+/*tabla_totales*/
+
+#tabla_totales{
+	border:1px solid black;
+	border-top:0px;
+}
+#tabla_totales  td{
+	border: 1px solid black;
+	border-top:0px;
+}
+#tabla_totales .grupo_totales0{
+	width:*;
+}
+#tabla_totales .grupo_totales1{
+	width:24%;
+}
+#tabla_totales .grupo_totales2{
+	width:12%;
+}
+#tabla_totales .grupo_totales3{
+	width:12%;
+	background:yellow;
+	text-align:right;
+}
+.td_total_superior{
+	border-top:0px;
+}
+
+#tabla_totales  #tddatostotales{
+	border:0px;
+	vertical-align:top;
+}
+#tabla_totales  #tdgastos{
+	padding:0px;
+	vertical-align:top;
+	border:0px;
+}
+#tabla_totales  #tdgastos table caption{
+	border-top:0px;
+	border-right:0px;
+}
+
+#tabla_totales  #tdgastos table td{
+	border-right:0px;
+}
+/*datos totales*/
+#nobordertable,
+#nobordertable td{
+	border:0px;
+}
+#nobordertable .td_underline{
+	border-bottom:1px solid black;
+}
+#observaciones{
+	text-decoration:underline;
+}
+
+
+/*tabla pie*/
+#tabla_pie{
+	border:1px solid black;
+}
+
+#titulo_condiciones{
+	font-weight:bold;
+}
+
+#preparado,
+#aprobado{
+	width:50%;
+	border:1px solid black;
+}
+
+.tdtotal{
+	font-weight:bold;
+}
